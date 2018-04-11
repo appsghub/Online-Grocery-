@@ -1,0 +1,463 @@
+body {
+	background: #e3e3e3;
+	font-family: 'Arial Rounded MT';
+	font-size: 20px;
+	text-align: center;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+a:link {
+	color: gray;
+}
+a:active {
+	color: black;
+}
+a:visited {
+	color: #171814;
+}
+#conatiner {
+	background: white;
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid #f2f2f2;
+	overflow: hidden;
+}
+#header {
+	background: green;
+	width: 1000px;
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+    
+}
+
+#logo {
+    height: 93px;
+    width: 202px;
+    float: left;
+    padding: 1px;
+    margin-top:2px;
+    margin-left:2px;
+    background: url('imges/mainlogo.jpeg') no-repeat;
+    }
+
+
+#search_area {
+	margin-top: 20px;
+	margin-right: 5px;
+	height: 58px;
+	width: 332px;
+	padding: 5px;
+	float: right;
+}
+#text_Area {
+	border: none;
+	border-radius: 2px;
+	height: 30px;
+	width: 200px;
+}
+#button {
+	border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    color: white;
+	height: 32px;
+	width: 92px;
+	background: black;
+	border-radius: 2px;
+	font-size: 14px;
+	float: right;
+}
+#button:hover {
+	background: gray;
+}
+
+/*-----------------start nav_area for seller master-----------------*/
+
+#nav_area {
+	width: 1000px;
+	height: 35px;
+	border: 1px solid white;
+	background-image:url("imges/navbg.jpg");
+    padding-top: 12px;
+}
+
+#nav_area ul {
+	float: left;
+
+}
+
+#nav_area ul li {
+	list-style: none;
+	float: left;
+    height: 31px;
+    width: 272px;
+}
+
+#nav_area ul li a {
+	text-decoration: none;
+	font-size: 16px;
+	color: green;
+	padding: 15px 20px;
+	font-family: helvetica;
+    font-weight: 700;
+}
+#nav_area ul li a:hover {
+	background: green;
+	color: black;
+}
+
+#left_side {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	float: left;
+	width: 300px;
+	height: auto;
+
+}
+
+#catagories {
+	width: 304px;
+	height: 290px;
+	overflow: hidden;
+	clear: both;
+	background: #E3E3E3;
+}
+
+#catagories h2 {
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 10px;
+	background-image:url("imges/navbg.jpg");
+	color: green;
+	font-family: helvetica;
+}
+
+#catagories ul {
+	list-style: none;
+	text-align: justify;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#catagories ul li {
+	
+	line-height: 30px;
+	width: 269px;
+    background-color: #FF9999;
+    height: 40px;
+}
+
+#catagories ul li a {
+	line-height: 10px;
+	font-size: 16px;
+	color: green;
+	font-family: helvetica;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#catagories ul li a:hover {
+	color: gray;
+}
+
+				
+		.links {
+			width: 130px;
+			padding: 10px;
+			height: 80px;
+			float: left;
+		}
+
+#Shipping {
+	background: #E3E3E3;
+	width: 300px;
+	height: auto;
+	overflow: hidden;
+	clear: both;
+}
+
+#Shipping h2 {
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 10px;
+	background-image:url("imges/navbg.jpg");
+	color: green;
+	font-family: helvetica;
+}
+
+#Shipping  img {
+	border-radius: 10px;
+
+}
+#Shipping  img:hover {
+	border: 2px solid;
+}
+
+
+#stores {
+	margin-top: 10px;
+	width: 300px;
+	height: auto;
+	background: #E3E3E3;
+	overflow: hidden;
+	clear: both;
+}
+
+#stores h2 {
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 10px;
+	background-image:url("imges/navbg.jpg");
+	color: green;
+	font-family: helvetica;
+}
+
+#contact p {
+	text-align: justify;
+	float: left;
+	padding: 10px;
+	font-family: helvetica;
+}
+
+/*----------------start right area----------------*/
+
+
+#right_side {
+	float: right;
+	width: 684px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+
+#product_and_details {
+	width: 686px;
+	height: auto;
+	overflow: hidden;
+	padding: 0px;
+	background: #E3E3E3;
+}
+
+#product img{
+	width: 350px;
+	height: 250px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#details {
+	float: left;
+	padding-left: 10px;
+	width: 308px;
+	height: 250px;
+
+}
+
+#details h2 {
+		padding: 5px;
+		text-align: left;
+		
+		color: green;
+		font-family: helvetica;
+}
+
+#details ul {
+	list-style: none;
+	text-align: justify;
+}
+
+#details ul li {
+	list-style: none;
+	line-height: 25px;
+	border-bottom: 1px solid green;
+	width: auto;
+	font-family: helvetica;
+   font-size: 15px;
+}
+
+#details ul li a {
+	line-height: 10px;
+	color: green;
+}
+#details small {
+	font-size: 14px;
+	color: red;
+	float: right;
+	padding: 5px;
+}
+
+/*---------------------------start  our products area---------------------------*/
+
+
+#our_product {
+
+	float: left;
+	width: 942px;
+	background: rgb(204, 255, 153);
+	position: absolute;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: relative;
+    top: 2px;
+    left: 31px;
+    height: 781px;
+}
+
+#our_product h2 {
+	background-image:url('imges/navbg.jpg');
+	color: green;
+	width: 930px;
+	padding: 5px;
+	position: relative;
+	font-family: helvetica;
+    text-decoration: underline;
+    background-color: #FFFFFF;
+    top: 0px;
+    left: 0px;
+    height: 30px;
+}
+
+#product_container {
+	float: left;
+	width: 196px;
+	height: 338px;
+	margin: 10px;
+	padding: 5px;
+    background-color: #FFFFCC;
+}
+
+#images {
+
+	width: 200px;
+	height: 158px;
+	overflow: hidden;
+
+}
+
+#images img {
+	background-position: center;
+	background-repeat: no-repeat;
+    height: 161px;
+    width: 159px;
+}
+
+#product_container h3 {
+	padding: 5px;
+	color: #006600;
+	text-align:left;
+	background-color: #99FF66;
+}
+
+#product_container ul {
+	list-style: none;
+	text-align: justify;
+}
+
+#product_container ul li {
+	list-style: none;
+	line-height: 20px;
+	border-bottom: 1px solid green;
+	width: auto;
+	font-family: helvetica;
+   font-size: medium;
+    font-weight: 700;
+    color: #660066;
+    background-color: #99FF66;
+}
+
+#product_container small {
+	float: right;
+	margin-top: 10px;
+	color: red;
+    font-size: medium;
+    font-weight: 700;
+    height: 21px;
+    width: 131px;
+}
+
+/*-------- start footer area-----------*/
+
+#footer_area {
+	width: 1000px;
+	height: 50px;
+	background: green;
+	clear: both;
+
+}
+
+#footer_area ul {
+	float: left;
+}
+
+#footer_area ul li {
+	list-style: none;
+	float: left;
+	padding: 15px;
+
+}
+
+#footer_area ul li a {
+	text-decoration: none;
+	font-size: 14px;
+	font-family: helvetica;
+	color: black;
+    font-weight: 700;
+}
+
+#footer_area ul li a:hover {
+	color: white;
+
+}
+
+#footer_area p {
+	float: right;
+	padding: 10px;
+	text-align: left;
+	font-size: 12px;
+	color: white;
+}
+
+/*nav area for homemaster page*/
+
+#nav_area1 {
+	width: 1000px;
+	height: 35px;
+	border: 1px solid white;
+	background-image:url("imges/navbg.jpg");
+    padding-top: 12px;
+}
+
+#nav_area1 ul {
+	float: left;
+
+}
+
+#nav_area1 ul li {
+	list-style: none;
+	float: left;
+    height: 27px;
+    width: 154px;
+}
+
+#nav_area1 ul li a {
+	text-decoration: none;
+	font-size: 16px;
+	color: green;
+	padding: 15px 20px;
+	font-family: helvetica;
+    font-weight: 700;
+}
+#nav_area1 ul li a:hover {
+	background: green;
+	color: black;
+}
+
+

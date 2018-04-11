@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="adminmaster.master.cs" Inherits="Admin_adminmaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="mos-css/mos-style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            font-weight: normal;
+            color: #FF0000;
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <div id="header">
+	<div class="inHeader">
+		<div class="mosAdmin">
+		Hello Administrator<br/>
+        </div>
+        <h1 class="auto-style1"><strong><em>Red Chillies</em></strong></h1>
+	<div class="clear"></div>
+	</div>
+</div>
+
+<div id="wrapper">
+	<div id="leftBar">
+	<ul>
+		<li><asp:HyperLink ID="feedbackhref" runat="server" Font-Bold="True" Font-Size="Medium" ForeColor="Blue" NavigateUrl="~/Admin/adminhome.aspx">Feedback</asp:HyperLink></li>
+		<li><asp:HyperLink ID="newemployeehref" runat="server" Font-Bold="True" Font-Size="Medium" ForeColor="Blue" NavigateUrl="~/Admin/employee_form.aspx">New Employee</asp:HyperLink></li>
+		<li><asp:HyperLink ID="employeelisthref" runat="server" Font-Bold="True" Font-Size="Medium" ForeColor="Blue" NavigateUrl="~/Admin/employeelist.aspx">Employee List</asp:HyperLink></li>
+        
+        <li><asp:HyperLink ID="complainthref" runat="server" Font-Bold="True" Font-Size="Medium" ForeColor="Blue" NavigateUrl="~/Admin/admincomplaint.aspx">Complaints</asp:HyperLink></li>
+        <li><asp:HyperLink ID="taxtablehref" runat="server" Font-Bold="True" Font-Size="Medium" ForeColor="Blue" NavigateUrl="~/Admin/taxtable.aspx">Tax Table</asp:HyperLink></li>
+        <li><asp:HyperLink ID="adminlogouthref" runat="server" Font-Bold="True" Font-Size="X-Large" ForeColor="#CC0066" NavigateUrl="~/login.aspx">Logout</asp:HyperLink></li>
+        
+	</ul>
+	</div>
+
+	<div id="rightContent">
+	<h3>&nbsp;Administrator Dashboard&nbsp;</h3>
+	    <div class="quoteOfDay">
+            <b>Quote of the day :<br />
+                "If you think you can, you really can"</i>
+	</div><div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder></div>
+    
+			</div></div>
+		
+		
+<div id="footer">
+	<p style="font-size: medium; color: #009900"> Copyright &copy; 2017 <br/>apps.chhaya@gmail.com</p>
+</div>
+
+   
+</body>
+</html>

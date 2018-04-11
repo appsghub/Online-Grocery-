@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/homemaster.master.cs" Inherits="homemaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title>Designed by Aparna</title>
+    <link href="style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            color: #FF0000;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+   
+   
+	<div id="conatiner">
+	 	<div id ="header">
+             
+	<div id="logo">
+	 			
+	 		</div>
+             
+	 		<div id="search_area">
+	 			<input id="text_Area" type="text" placeholder="Search.."/>&nbsp;
+	 			<input id="button" type="button" value="search"/></div>
+             <center>
+            <h1 class="auto-style1"><strong><em>Red Chillies</em></strong></h1>
+            </center>
+	 		
+	 	</div>
+	 	<div id="nav_area1">
+	 			<ul>
+	 				<li><a href="#"></a><asp:HyperLink ID="homehref" runat="server" NavigateUrl="~/homepage.aspx">Home</asp:HyperLink></li>
+	 				<li><a href="#"></a><asp:HyperLink ID="feedbackhref" runat="server" NavigateUrl="~/feedback.aspx">Feedback</asp:HyperLink></li>
+	 				<li><a href="#"></a><asp:HyperLink ID="aboutushref" runat="server" NavigateUrl="~/aboutus.aspx">About Us</asp:HyperLink></li>
+                     <li><a href="#"></a> <asp:HyperLink ID="loginhref" runat="server" NavigateUrl="~/login.aspx">Login</asp:HyperLink></li>
+                     <li><a href="#"></a><asp:HyperLink ID="HyperLink4" runat="server" ImageHeight="26px" NavigateUrl="~/usercartdetails.aspx">Cart</asp:HyperLink></li>
+	 				
+	 			</ul>
+	 	</div><!--end nav area-->
+
+
+ <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+
+
+        </asp:ContentPlaceHolder>
+
+
+        <div id="footer_area">
+	
+	<ul>
+		<li><a href="#"></a><asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/createuser.aspx">Sign Up</asp:HyperLink></li>
+		<li><a href="#"></a> <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/sellerac.aspx">New Seller</asp:HyperLink></li>
+		<li><a href="#"></a><asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/contactus.aspx">Contact Us</asp:HyperLink></li>
+	</ul>
+ 	<p> Copyright &copy; 2017 </br>apps.chhaya@gmail.com</p>
+	</div>
+        </div>
+
+   
+    </form>
+</body>
+</html>

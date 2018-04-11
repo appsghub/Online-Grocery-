@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="sellermaster.master.cs" Inherits="Seller_sellermaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Designed By Aparna</title>
+    <link href="../style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <style type="text/css">
+        .auto-style1 {
+            color: #FF0000;
+        }
+         .auto-style3 {
+             color: #3366FF;
+         }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+   
+   
+	<div id="conatiner">
+	 	<div id ="header">
+             
+	<div id="logo">
+	 			
+	 		</div>
+             
+	 		<div id="search_area">
+	 			<h1 class="auto-style3"> Welcome Seller</h1></div>
+             <center>
+            <h1 class="auto-style1"><strong><em>Red Chillies</em></strong></h1>
+            </center>
+	 		
+	 	</div>
+	 	<div id="nav_area">
+	 			<ul>
+	 				
+	 				<li><a href="#"></a><asp:HyperLink ID="seuploadproducthref" runat="server" NavigateUrl="~/Seller/selleruploadproduct.aspx" Font-Bold="True">Upload Product</asp:HyperLink></li>
+	 				<li><a href="#"></a><asp:HyperLink ID="sefeedbackhref" runat="server" Font-Bold="True" NavigateUrl="~/Seller/sellerhome.aspx">Customer Feedback</asp:HyperLink></li>
+                     <li><asp:HyperLink ID="selogouthref" runat="server" ForeColor="#CC0066" NavigateUrl="~/login.aspx" Font-Size="Larger">Logout</asp:HyperLink></li>
+                     
+	 			</ul>
+	 	</div><!--end nav area-->
+
+
+ <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+
+
+        </asp:ContentPlaceHolder>
+
+
+        <div id="footer_area">
+	
+	
+ 	<p> Copyright &copy; 2017 <br/>apps.chhaya@gmail.com</p>
+	</div>
+        </div>
+
+   
+    </form>
+</body>
+</html>
